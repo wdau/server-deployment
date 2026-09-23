@@ -46,6 +46,7 @@ const getTodoById = async (req, res) => {
 };
 
 // Update Todo
+// Comment added
 const updateTodo = async (req, res) => {
   try {
     const { id } = req.params;
